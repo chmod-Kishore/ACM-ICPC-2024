@@ -1,7 +1,18 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<stdbool.h>
-
+/*Author: Kishore K
+CS23B2016
+This program contains the following functions:
+node generator
+insertion
+deletion
+insertion at a position
+deletion at a position
+check if a data is present in ll
+size of ll
+print
+reverse print*/
 typedef struct node{
     int data;
     struct node* next;
