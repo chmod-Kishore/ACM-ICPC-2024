@@ -41,7 +41,7 @@ bool detect_cycle(){
     node* slow = head;
     node* fast = head;
     while(fast!=NULL && fast->next!=NULL){
-        if(slow == slow->next){
+        if(slow == fast){//eventually slow will overtake fast if there is a cycle
             return true;
         }
         slow = slow->next;
